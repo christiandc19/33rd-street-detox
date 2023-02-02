@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(7, 28, 58, 0.692);
+    background: rgba(30, 49, 78, 0.705);
   }
   
   .hero:before {
@@ -24,9 +24,10 @@
 
 .hero .hero-container {
     top: 25%;
+    left: 10%;
     position: absolute;
     align-items: center;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -34,34 +35,29 @@
     text-align: center;
 }
 
-.hero-logo img {
-    width: 270px;
-    height: 200px;
-}
+
 
 
 .hero h1 {
-    font-size: 6rem;
-    text-align: center;
+    font-size: 3rem;
+    text-align: left;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     color: white;
-    margin: 0 1rem;
 }
 
 .hero-container p {
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
 .hero .hero-btn button {
-    margin: auto;
     cursor: pointer;
 }
 
@@ -71,11 +67,11 @@
 @media screen and (max-width:940px) {
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .hero h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .hero p {
@@ -86,5 +82,10 @@
         top: 30%;
     }
     
+    .hero .hero-container {
+        top: 25%;
+        left: 5%;
+        width: 100%;
+    }
 
 }
