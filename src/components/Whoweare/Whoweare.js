@@ -3,7 +3,6 @@ import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 import { FaRegStar } from 'react-icons/fa';
 
-
 import WhatWeDoImg from '../../assets/slider3.jpg'
 import WhatWeDoImg2 from '../../assets/whatwedo2.jpg'
 import WhatWeDoImg3 from '../../assets/slider4.jpg'
@@ -11,8 +10,6 @@ import WhatWeDoImg3 from '../../assets/slider4.jpg'
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
-
-
 
 
 const Whoweare = () => {
@@ -39,7 +36,6 @@ const Whoweare = () => {
             </div>
         </Fade>
     </div>
-
 
 
 {/* WRAP 2 */}
@@ -76,10 +72,11 @@ const Whoweare = () => {
 
 {/* WRAP 3 */}
 
-
 <div className='wrap'>
         <Fade left>
         <div className='Whoweare-icon'>
+        <h1 className='whoweare-header'>ABOUT OUR SERVICES</h1>
+
                 <Fade left>
                     <div className='icons'>
                         <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
@@ -109,7 +106,6 @@ const Whoweare = () => {
             </div>
         </Fade>
     </div>
-
 
 </>
   )
