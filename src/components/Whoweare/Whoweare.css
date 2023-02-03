@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
-  margin: 5rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .box {
@@ -14,9 +14,19 @@
     margin: 1rem;
 }
 
+
 .box-right {
-    width: 550px;
+    width: 600px;
+    margin: 1rem;
 }
+
+.box-right img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
 
 .wrap .header {
     text-align: left;
@@ -33,13 +43,10 @@
 
 .wrap .header2 span {
     text-align: left;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.box-right img {
-    border-radius: 15px;
-}
 
 .wrap p, .wrap ul li {
     font-size: 15px;
@@ -52,23 +59,28 @@
 }
 
 .Whoweare-icon {
-    width: 600px;
+    max-width: 100%;
+    margin: 2rem;
 }
+
+
+
 
 .icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 100px;
     text-align: center;
-    margin: 1rem;
-    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
-    width: auto;
+    max-width: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid rgba(201, 192, 192, 0.308);
 }
 
 .icons p {
-    width: 500px;
+    width: 700px;
     margin-left: 1rem;
 }
 
@@ -77,6 +89,10 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
+
+    .hide {
+        display: none;
+    }
 
     .Whoweare-icon img {
         width: 50px;
@@ -116,19 +132,21 @@
 
 @media screen and (max-width:500px) {
     .icons {
-        width: 350px;
         height: 120px;
-        margin: auto;
     }
 
-    .box-right img {
+    /* .box-right img {
         width: 350px;
         height: 250px;
         margin: 10px;
-    }
+    } */
 
     .wrap {
         margin: 1rem 0 0 0;
       }
+
+    .wrap .header2 span {
+        font-size: 30px;
+}
 
 }

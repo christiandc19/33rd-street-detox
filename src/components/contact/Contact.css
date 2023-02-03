@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(88, 140, 218, 0.404);
+    background: rgba(42, 14, 73, 0.486);
   }
   
   .contact-hero:before {
@@ -25,17 +25,21 @@
     position: absolute;
     top: 40%;
     padding: 1rem;
+    width: 100%;
 }
 
 .contact-hero h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
+
 }
 
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 
@@ -49,6 +53,11 @@
 }
 
 .contact-hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
+
+.contact-hero p {
+    font-size: 12px;
+}
+
 }
