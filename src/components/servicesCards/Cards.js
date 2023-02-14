@@ -7,9 +7,9 @@ import { Link as LinkRoll } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
 
 
-import Card1 from '../../assets/card1.jpg'
-import Card2 from '../../assets/card2.jpg'
-import Card3 from '../../assets/card3.jpg'
+import Card1 from '../../assets/card2-1.jpg'
+import Card2 from '../../assets/card2-2.jpg'
+import Card3 from '../../assets/card2-3.jpg'
 
 
 const Cards = () => {
@@ -18,7 +18,7 @@ const Cards = () => {
 
             <div className="cards-header container">
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <p>At 33rd Street Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 <div class="card-wrap">
 <div class="tile"> 
@@ -28,15 +28,17 @@ const Cards = () => {
   <div class="text">
   <h1>MENTAL HEALTH TREATMENT​</h1>
   <p class="animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety. Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
+    
     <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health">
-            <button>Learn More</button>
+            <button>LEARN MORE</button>
         </Link>
     </LinkRoll>
     </div>
   </div>
  </div>
+
 
 <div class="tile"> 
 <Fade top>

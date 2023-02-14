@@ -36,6 +36,9 @@ import PTSD from './routes/PTSDPage';
 import Schizoaffective from './routes/SchizoaffectivePage';
 import Schizophrenia from './routes/SchizophreniaPage';
 
+import SA from './routes/SA';
+import MH from './routes/MH';
+
 
 import Jobs from './routes/JOBS';
 import Team from './routes/Team';
@@ -75,6 +78,9 @@ ReactDOM.render(
 
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/team' element={<Team />} />
+      
+      <Route exact path='/mental-health' element={<MH />} />
+      <Route exact path='/substance-abuse' element={<SA />} />
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />

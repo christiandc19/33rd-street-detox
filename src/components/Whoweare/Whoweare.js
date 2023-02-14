@@ -1,11 +1,11 @@
 import React from 'react'
 import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
-import { FaRegStar } from 'react-icons/fa';
+
+import Services from "../../components/servicesCards/Cards"
 
 import WhatWeDoImg from '../../assets/slider3.jpg'
 import WhatWeDoImg2 from '../../assets/whatwedo2.jpg'
-import WhatWeDoImg3 from '../../assets/slider4.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
@@ -38,44 +38,12 @@ const Whoweare = () => {
     </div>
 
 
-{/* WRAP 2 */}
+<Services />
 
-    <div className='wrap'>
-        <Fade left>
-            <div className="box-right hide">
-                <img src={WhatWeDoImg2} alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
-
-        <Fade right>
-            <div className="box left">
-            <h1 className='header'>AN EVALUATION INCLUDES:</h1><br/>
-                <ul>
-                    <li>
-                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li><br/>
-                    <li>
-                        <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li><br/>
-                    <li>
-                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
-                    </li>
-                </ul><br/><br/>
-                {/* <h1 className='header'>WHAT WE DO</h1> */}
-                <p>Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.  </p>
-                <br />
-            </div>
-        </Fade>
-    </div>
-
-
-
-{/* WRAP 3 */}
 
 <div className='wrap'>
         <Fade left>
         <div className='Whoweare-icon'>
-        <h1 className='whoweare-header'>ABOUT OUR SERVICES</h1>
 
                 <Fade left>
                     <div className='icons'>
@@ -102,7 +70,7 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="box-right">
-                <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
+                <img src={WhatWeDoImg2} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
     </div>
