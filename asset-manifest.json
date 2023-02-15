@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/33rd-street-detox/static/css/main.d7d99eeb.css",
+    "main.css": "/33rd-street-detox/static/css/main.b5a4b281.css",
     "main.js": "/33rd-street-detox/static/js/main.8c9a013f.js",
     "static/media/hero-bg.jpg": "/33rd-street-detox/static/media/hero-bg.726103f2dd57f344a824.jpg",
     "static/media/home1.png": "/33rd-street-detox/static/media/home1.36fcbba2b792f74810e0.png",
@@ -57,11 +57,11 @@
     "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.d7d99eeb.css.map": "/33rd-street-detox/static/css/main.d7d99eeb.css.map",
+    "main.b5a4b281.css.map": "/33rd-street-detox/static/css/main.b5a4b281.css.map",
     "main.8c9a013f.js.map": "/33rd-street-detox/static/js/main.8c9a013f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7d99eeb.css",
+    "static/css/main.b5a4b281.css",
     "static/js/main.8c9a013f.js"
   ]
 }
