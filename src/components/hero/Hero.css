@@ -23,37 +23,33 @@
 
 
 .hero .hero-container {
-    top: 25%;
-    left: 10%;
+    top: 30%;
     position: absolute;
     align-items: center;
-    text-align: left;
-    width: 80%;
+    text-align: center;
+    padding: 1rem;
 }
 
 .hero-logo {
     text-align: center;
 }
 
-
-
-
 .hero h1 {
-    font-size: 3rem;
-    text-align: left;
+    font-size: 5rem;
+    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
 .hero-container p {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -82,10 +78,5 @@
         top: 30%;
     }
     
-    .hero .hero-container {
-        top: 25%;
-        left: 5%;
-        width: 100%;
-    }
 
 }

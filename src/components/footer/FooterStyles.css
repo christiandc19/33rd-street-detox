@@ -60,7 +60,7 @@
 
 .footer .col-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1rem;
     width: 100%;
 }
@@ -131,15 +131,16 @@
     }
 
     .footer .col-container {
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 3fr 3fr 3fr ;
     }
 
     .footer form {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 4;
+        text-align: center;
     }
 
-    .footer h1, .footer h2, .footer h3 {
-        text-align: left;
+    .footer h1, .footer h2, .footer h3, .footer p {
+        text-align: center;
     }
     
 }

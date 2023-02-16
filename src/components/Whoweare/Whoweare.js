@@ -43,25 +43,26 @@ const Whoweare = () => {
 
 <div className='wrap'>
         <Fade left>
+        
         <div className='Whoweare-icon'>
 
                 <Fade left>
                     <div className='icons'>
-                        <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
+                        <img src={Icon1}  alt="Conselling Session with a patient" loading="lazy" />
                         <p><span>DEDICATED STAFF</span> <br/> The medical professionals on our team are completely dedicated to your recovery. </p>
                     </div>
                 </Fade>
 
                 <Fade right>
                     <div className='icons'>
-                        <img src={Icon2} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
+                        <img src={Icon2} alt="Conselling Session with a patient" loading="lazy" />
                         <p><span>PROVEN METHODS</span> <br/> Our treatment methods are solely based on proven research and science-based evidence.</p>
                     </div>
                 </Fade>
 
                 <Fade left>
                     <div className='icons'>
-                        <img src={Icon3} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
+                        <img src={Icon3} alt="Conselling Session with a patient" loading="lazy" />
                         <p><span>24/7 SUPPORT</span> <br/> Guidance and support are always in reach. We provide care for you whenever needed.</p>
                     </div>
                 </Fade>
