@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/33rd-street-detox/static/css/main.cc662d25.css",
-    "main.js": "/33rd-street-detox/static/js/main.e729211d.js",
+    "main.css": "/33rd-street-detox/static/css/main.0fe5842b.css",
+    "main.js": "/33rd-street-detox/static/js/main.e7bcf297.js",
     "static/media/home1.png": "/33rd-street-detox/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/33rd-street-detox/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/home5.png": "/33rd-street-detox/static/media/home5.332add0d7c324fdad002.png",
@@ -30,7 +30,7 @@
     "static/media/submenu-bg-team.jpg": "/33rd-street-detox/static/media/submenu-bg-team.60bc3ede9e9bb99c5f4b.jpg",
     "static/media/contact-form-bg.jpg": "/33rd-street-detox/static/media/contact-form-bg.d57dd07f1da8249429c8.jpg",
     "static/media/menu-bg-insurance.jpg": "/33rd-street-detox/static/media/menu-bg-insurance.feda551b4ff3f77df9da.jpg",
-    "static/media/sub-card-bg.jpg": "/33rd-street-detox/static/media/sub-card-bg.de56fd7308bb68c4da54.jpg",
+    "static/media/sub-card-bg.jpg": "/33rd-street-detox/static/media/sub-card-bg.1a6823c5cb6f61584faa.jpg",
     "static/media/submenu-bg-jobs.jpg": "/33rd-street-detox/static/media/submenu-bg-jobs.a1fd8d967e1bacc96f64.jpg",
     "static/media/team4-min.jpg": "/33rd-street-detox/static/media/team4-min.51ae7ebc36bfd768e61c.jpg",
     "static/media/team3-min.jpg": "/33rd-street-detox/static/media/team3-min.877c3db3df0c897c1348.jpg",
@@ -56,11 +56,11 @@
     "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.cc662d25.css.map": "/33rd-street-detox/static/css/main.cc662d25.css.map",
-    "main.e729211d.js.map": "/33rd-street-detox/static/js/main.e729211d.js.map"
+    "main.0fe5842b.css.map": "/33rd-street-detox/static/css/main.0fe5842b.css.map",
+    "main.e7bcf297.js.map": "/33rd-street-detox/static/js/main.e7bcf297.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc662d25.css",
-    "static/js/main.e729211d.js"
+    "static/css/main.0fe5842b.css",
+    "static/js/main.e7bcf297.js"
   ]
 }
