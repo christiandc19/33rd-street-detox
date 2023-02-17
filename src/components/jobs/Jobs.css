@@ -28,12 +28,6 @@
     padding: 1rem;
 }
 
-.jobs h2 {
-    color: white;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .jobs h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
@@ -48,9 +42,6 @@
 
 @media screen and (max-width:940px) {
 
-.jobs h2 {
-    font-size: 1.5rem;
-}
 
 .jobs h1 {
     font-size: 2rem;

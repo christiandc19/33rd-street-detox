@@ -123,6 +123,7 @@
 
 .copyright p {
     color: white;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 940px) {
