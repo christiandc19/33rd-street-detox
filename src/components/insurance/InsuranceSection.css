@@ -28,10 +28,11 @@
 
 .insurance-thumbnail img {
     margin: 5px;
-    width: 120px;
+    width: 130px;
+    height: 130px;
     padding: 5px;
     border: 1px solid var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 5rem;
 }
 
 .InsuranceSection .flex-right {
