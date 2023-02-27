@@ -4,8 +4,9 @@ import Fade from 'react-reveal/Fade';
 
 import Services from "../../components/servicesCards/Cards"
 
-import WhatWeDoImg from '../../assets/slider3.jpg'
-import WhatWeDoImg2 from '../../assets/whatwedo2.jpg'
+import Whoweare1 from '../../assets/whoweare-1.jpg'
+import Whoweare2 from '../../assets/slider3.jpg'
+import WhatWeDoImg3 from '../../assets/whatwedo2.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
@@ -21,7 +22,7 @@ const Whoweare = () => {
 
     <div className='wrap'>
         <Fade left>
-            <div className="box left">
+            <div className="left">
                 <h1 className='header'>WHO WE ARE</h1><br/>
                 <h1 className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
                 <br/>
@@ -31,8 +32,28 @@ const Whoweare = () => {
         </Fade>
 
         <Fade right>
-            <div className="box-right">
-                <img src={WhatWeDoImg} alt="Conselling Session with a patient" loading="lazy" />
+            <div className="right">
+                <img src={Whoweare1} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
+    </div>
+
+
+{/* WRAP 2 */}
+<div className='wrap reverse-wrap'>
+        <Fade right>
+            <div className="right">
+                <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
+
+        <Fade left>
+            <div className="left left2">
+                <div>
+                <h1 className='header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1><br/>
+                <p>You may have lost your way but here you won’t get lost in the crowd. 23rd Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life.</p>
+                </div>
+                <br />
             </div>
         </Fade>
     </div>
@@ -41,6 +62,7 @@ const Whoweare = () => {
 <Services />
 
 
+{/* WRAP 2 */}
 <div className='wrap'>
         <Fade left>
         
@@ -70,11 +92,12 @@ const Whoweare = () => {
         </Fade>
 
         <Fade right>
-            <div className="box-right">
-                <img src={WhatWeDoImg2} alt="Conselling Session with a patient" loading="lazy" />
+            <div className="right">
+                <img src={Whoweare2} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
     </div>
+
 
 </>
   )

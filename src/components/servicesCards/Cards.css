@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items:space-around;
-
+  margin: 2rem 0 8rem 0;
 }
 
 .tile
@@ -102,10 +102,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width: auto;
     padding: 20px;
     text-align: center;
+    padding: 2rem 1rem;
 }
 
 .cards-header h1 {
-    margin: 2rem auto;
+    margin: 1rem auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -134,13 +135,17 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
   @media (max-width: 940px) {
-    .card-wrap {
-      width: 100%;
-    }
   
     .tile { 
       width: 320px;
       height:430px;
     }
+
+    .card-wrap
+    {
+      margin: 1rem 0 2rem 0;
+    }
+
+
   
   }
