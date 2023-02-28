@@ -102,12 +102,12 @@ const Whoweare = () => {
 
 
 
-{/* WRAP 2 */}
+{/* WRAP 4 */}
 <div className='wrap'>
         <Fade left>
         
+        <div className='left'>
         <div className='Whoweare-icon'>
-
                 <Fade left>
                     <div className='icons'>
                         <img src={Icon1}  alt="Conselling Session with a patient" loading="lazy" />
@@ -129,6 +129,7 @@ const Whoweare = () => {
                     </div>
                 </Fade>
             </div>
+        </div>
         </Fade>
 
         <Fade right>
