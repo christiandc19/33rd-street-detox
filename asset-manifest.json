@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/33rd-street-detox/static/css/main.06c73534.css",
-    "main.js": "/33rd-street-detox/static/js/main.5b6e5d0e.js",
+    "main.js": "/33rd-street-detox/static/js/main.9f3a8208.js",
     "static/media/whoweare-1.jpg": "/33rd-street-detox/static/media/whoweare-1.ed3546c99b515db2219d.jpg",
+    "static/media/slider5.jpg": "/33rd-street-detox/static/media/slider5.7e8d8154bc2dceffdd51.jpg",
     "static/media/home1.png": "/33rd-street-detox/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/33rd-street-detox/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/home5.png": "/33rd-street-detox/static/media/home5.332add0d7c324fdad002.png",
@@ -58,10 +59,10 @@
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.06c73534.css.map": "/33rd-street-detox/static/css/main.06c73534.css.map",
-    "main.5b6e5d0e.js.map": "/33rd-street-detox/static/js/main.5b6e5d0e.js.map"
+    "main.9f3a8208.js.map": "/33rd-street-detox/static/js/main.9f3a8208.js.map"
   },
   "entrypoints": [
     "static/css/main.06c73534.css",
-    "static/js/main.5b6e5d0e.js"
+    "static/js/main.9f3a8208.js"
   ]
 }
