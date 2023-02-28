@@ -2,15 +2,18 @@ import React from 'react'
 import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 
-import Services from "../../components/servicesCards/Cards"
+import { FaRegStar } from 'react-icons/fa';
 
 import Whoweare1 from '../../assets/whoweare-1.jpg'
 import Whoweare2 from '../../assets/slider3.jpg'
+import Whoweare3 from '../../assets/slider5.jpg'
+
 import WhatWeDoImg3 from '../../assets/whatwedo2.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
+import Cards from '../../components/servicesCards/Cards';
 
 
 const Whoweare = () => {
@@ -39,7 +42,45 @@ const Whoweare = () => {
     </div>
 
 
+
 {/* WRAP 2 */}
+
+<div className='wrap'>
+
+        <Fade right>
+            <div className="right">
+                <img src={Whoweare2} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
+
+        <Fade left>
+            <div className="left">
+                <h1 className='header'>Evaluations includes:</h1><br/>
+                <br/>
+                <p>                
+                    <ul>
+                    <li>
+                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
+                    </li><br/>
+                    <li>
+                        <FaRegStar className='star'/> Urine tests and other lab tests.
+                    </li><br/>
+                    <li>
+                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
+                    </li>
+                </ul>
+                </p>
+                <br />
+                <p>
+                Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
+                </p>
+            </div>
+        </Fade>
+    </div>
+
+<Cards />
+
+{/* WRAP 3 */}
 <div className='wrap reverse-wrap'>
         <Fade right>
             <div className="right">
@@ -59,7 +100,6 @@ const Whoweare = () => {
     </div>
 
 
-<Services />
 
 
 {/* WRAP 2 */}
@@ -93,7 +133,7 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="right">
-                <img src={Whoweare2} alt="Conselling Session with a patient" loading="lazy" />
+                <img src={Whoweare3} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
     </div>
