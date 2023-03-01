@@ -26,10 +26,11 @@ const Whoweare = () => {
     <div className='wrap'>
         <Fade left>
             <div className="left">
+                <p>
                 <h1 className='header'>WHO WE ARE</h1><br/>
                 <h1 className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
                 <br/>
-                <p>To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
+                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
                 <br />
             </div>
         </Fade>
@@ -45,7 +46,7 @@ const Whoweare = () => {
 
 {/* WRAP 2 */}
 
-<div className='wrap'>
+<div className='wrap reverse-wrap'>
 
         <Fade right>
             <div className="right">
@@ -55,16 +56,17 @@ const Whoweare = () => {
 
         <Fade left>
             <div className="left">
-                <h1 className='header'>Evaluations includes:</h1><br/>
                 <br/>
                 <p>                
+                <h1 className='header'>EVALUATION INCLUDES:</h1><br/>
+
                     <ul>
                     <li>
                         <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li><br/>
+                    </li>
                     <li>
                         <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li><br/>
+                    </li>
                     <li>
                         <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
                     </li>
@@ -83,7 +85,7 @@ const Whoweare = () => {
 {/* WRAP 3 */}
 <div className='wrap reverse-wrap'>
         <Fade right>
-            <div className="right">
+            <div className="right3">
                 <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
