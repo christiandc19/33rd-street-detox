@@ -46,7 +46,7 @@ const Whoweare = () => {
 
 {/* WRAP 2 */}
 
-<div className='wrap reverse-wrap'>
+<div className='wrap reverse-wrap wrap2'>
 
         <Fade right>
             <div className="right">
@@ -83,7 +83,7 @@ const Whoweare = () => {
 <Cards />
 
 {/* WRAP 3 */}
-<div className='wrap reverse-wrap'>
+<div className='wrap reverse-wrap wrap3'>
         <Fade right>
             <div className="right3">
                 <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
