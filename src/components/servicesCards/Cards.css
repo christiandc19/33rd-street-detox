@@ -99,19 +99,39 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 .cards-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
     width: auto;
     padding: 20px;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 5rem 1rem 2rem 1rem;
 }
 
-.cards-header h1 {
+.cards-header-left {
+  width: 500px;
+}
+
+.cards-header-right {
+  width: 600px;
+  padding:  0 1rem;
+}
+
+.cards-header-left h1 {
     margin: 1rem auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards-header span {
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
 .cards-header p {
   font-family: 'Montserrat', sans-serif;
+  text-align: justify;
 }
 
 

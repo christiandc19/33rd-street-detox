@@ -16,10 +16,16 @@ const Cards = () => {
   return (
     <>
 
-<div className="cards-header container">
+    <div className="cards-header container">
+            <div className='cards-header-left'>
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At 33rd Street Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <h3>The Best Possible Care. The Best Possible People.</h3>
             </div>
+
+            <div className='cards-header-right'>
+                <p>At <span>33rd Street Recovery Treatment Center</span>, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+            </div>
+    </div>
 
 <div class="card-wrap">
 
