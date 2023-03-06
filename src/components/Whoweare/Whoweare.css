@@ -38,12 +38,18 @@
     color: white;
 }
 
+.wrap1 .left .header2 {
+    font-size: 1rem;
+}
+
 .wrap1 .left p, .wrap4 .left p {
     color: black;
 }
 
-.left h1 {
+.wrap .left h1 {
     color: rgb(255, 166, 0);
+    text-align: center;
+    font-size: 2rem;
     font-weight: 300;
 }
 
@@ -85,6 +91,7 @@
 }
 
 .wrap .header2 span {
+    color: var(--primary-color);
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -187,7 +194,7 @@
       }
 
     .wrap .header2 span {
-        font-size: 30px;
+        font-size: 20px;
 }
 
     .Whoweare-icon {

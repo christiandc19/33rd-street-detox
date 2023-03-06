@@ -28,7 +28,7 @@ const Whoweare = () => {
             <div className="left">
                 <p>
                 <h1 className='header'>WHO WE ARE</h1><br/>
-                <h1 className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
+                <h2 className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h2>
                 <br/>
                 To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
                 <br />
