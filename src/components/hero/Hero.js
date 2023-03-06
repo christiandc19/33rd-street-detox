@@ -3,22 +3,23 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import Wave from '../../assets/waves.svg'
 
 const Hero = () => {
     return (
 <>        
-        <div className='hero'>
+<div className='sample'>
 
-
-        <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-
-
-            <div className="hero-container">
-        <div className="content">
-                <h1 className="animate-charcter">33RD STREET RECOVERY</h1>
+<section className='sampleSection'>
+  <div class="sampleContainer">
+    
+    <div class="sample-left"></div>
+    <div class="sample-right">
+      <div class="content">
+      <div className="content">
+            
+            <Fade right>
+                <h1 className="animate-charcter">20TH STREET RECOVERY</h1>
+                </Fade>
             <Fade left>
                 <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
             </Fade>
@@ -33,7 +34,10 @@ const Hero = () => {
                 <p>Find your happiness and learn to put it first.</p>
             </Fade>
         </div>
+      </div>
     </div>
+  </div>
+</section>
 </div>
 </>
 

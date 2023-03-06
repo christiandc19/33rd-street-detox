@@ -1,115 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+.sample {
+  padding: 5rem 0 0 0;
+}
+
+.sampleSection {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../../assets/hero-bg-2.jpg') no-repeat center center/cover;
+}
+.sampleContainer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sample-left {
+  width: 80%;
+  height: 600px;
+  background: url(../../assets/hero-bg.jpg) no-repeat center / cover;
+  padding: 1rem;  
+  border-radius: 1rem;
+
+  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+  -moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+  box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+}
+
+.sample-right {
+  width: 70%;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.671);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 1rem;
+  color: white;
+  margin-left: -150px;
+
+  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+  -moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+  box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+}
 
 
+.sample .content {
+    text-align: center;
+}
 
-.hero {
+.sample-header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.sample-right h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: var(--primary-color);
+}
+
+.sample-right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+}
+
+.sample .hero-button button {
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .sampleContainer {
+    flex-direction: column;
     width: 100%;
-    height: 80vh;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: rgba(42, 14, 73, 0.486);
   }
-  
-  .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center top/cover;
-    height: 80vh;
+
+  .sample-left {
     width: 100%;
-    z-index: -1;
+    height: 400px;
   }
 
-
-
-  .animate-charcter
-  {
-     text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #ffffff 0%,
-      rgb(4, 73, 13) 50%,
-      #ffffff 0%,
-  
-      #f7f7f7 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 7s linear infinite;
-    display: inline-block;
-        font-size: 190px;
-  }
-  
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
+  .sample-right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
   }
 
-
-
-.hero .hero-container {
-    top: 30%;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-}
-
-.hero-logo {
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 5rem;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.hero h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-}
-
-.hero-container p {
-    font-size: 24px;
-    text-align: center;
-    color: white;
-}
-
-.hero .hero-btn button {
-    cursor: pointer;
-}
-
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:940px) {
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero h2 {
-        font-size: 22px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero .container {
-        top: 30%;
-    }
-    
+  .sample {
+    padding: 3rem 0 0 0;
+  }
 
 }
+

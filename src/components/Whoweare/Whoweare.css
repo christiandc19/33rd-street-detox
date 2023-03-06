@@ -5,10 +5,11 @@
   flex-wrap: wrap ;
   justify-content: space-evenly;
   margin: 1rem 0 0 0;
+  background-color: rgb(255, 255, 255);
 }
 
 .wrap2, .wrap3  {
-    background-color: #809bce;
+    background-color: var(--primary-color);
     padding: 3rem 0;
 }
 
@@ -34,6 +35,16 @@
     width: 600px;
     display: inline-block;
     margin: 1rem;
+    color: white;
+}
+
+.wrap1 .left p, .wrap4 .left p {
+    color: black;
+}
+
+.left h1 {
+    color: rgb(255, 166, 0);
+    font-weight: 300;
 }
 
 .right {

@@ -23,7 +23,7 @@ const Whoweare = () => {
 
 {/* WRAP 1 */}
 
-    <div className='wrap'>
+    <div className='wrap wrap1'>
         <Fade left>
             <div className="left">
                 <p>
@@ -105,7 +105,7 @@ const Whoweare = () => {
 
 
 {/* WRAP 4 */}
-<div className='wrap'>
+<div className='wrap wrap4'>
         <Fade left>
         
         <div className='left'>
