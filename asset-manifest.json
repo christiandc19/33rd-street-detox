@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/33rd-street-detox/static/css/main.91c45844.css",
-    "main.js": "/33rd-street-detox/static/js/main.ee2effb6.js",
+    "main.css": "/33rd-street-detox/static/css/main.1b6f83a5.css",
+    "main.js": "/33rd-street-detox/static/js/main.60c475dc.js",
+    "static/media/whoweare-1.jpg": "/33rd-street-detox/static/media/whoweare-1.60abeebaaca72ee69398.jpg",
     "static/media/slider3.jpg": "/33rd-street-detox/static/media/slider3.ff6568a983cffa9f873d.jpg",
     "static/media/whatwedo2.jpg": "/33rd-street-detox/static/media/whatwedo2.044b976328beed80109b.jpg",
-    "static/media/whoweare-1.jpg": "/33rd-street-detox/static/media/whoweare-1.5ccfd07985f50228ac8f.jpg",
     "static/media/slider5.jpg": "/33rd-street-detox/static/media/slider5.7e8d8154bc2dceffdd51.jpg",
     "static/media/home1.png": "/33rd-street-detox/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/33rd-street-detox/static/media/home2.c887b4fad9b85f2dcae7.png",
@@ -19,10 +19,10 @@
     "static/media/menu-bg-mission.jpg": "/33rd-street-detox/static/media/menu-bg-mission.2622a06134fb08274d7b.jpg",
     "static/media/submenu-bg-residence.jpg": "/33rd-street-detox/static/media/submenu-bg-residence.13b721ef0ebbc74b6121.jpg",
     "static/media/home8.png": "/33rd-street-detox/static/media/home8.306cea22fb053c309d37.png",
+    "static/media/slider1.jpg": "/33rd-street-detox/static/media/slider1.43a50b6e8a150f1dce10.jpg",
     "static/media/employment-assistance.jpg": "/33rd-street-detox/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
     "static/media/mental-health-submenu-bg.jpg": "/33rd-street-detox/static/media/mental-health-submenu-bg.5dca81a608f9a2dc0851.jpg",
     "static/media/menu-bg-treatment.jpg": "/33rd-street-detox/static/media/menu-bg-treatment.5ad277e8885721e9794e.jpg",
-    "static/media/hero-bg.jpg": "/33rd-street-detox/static/media/hero-bg.bc4ba536b49207ebef20.jpg",
     "static/media/menu-bg-contact.jpg": "/33rd-street-detox/static/media/menu-bg-contact.3f5070facb586470055a.jpg",
     "static/media/menu-bg-about.jpg": "/33rd-street-detox/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/hero-bg-2.jpg": "/33rd-street-detox/static/media/hero-bg-2.9070033eb841d0101b5f.jpg",
@@ -58,11 +58,11 @@
     "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.91c45844.css.map": "/33rd-street-detox/static/css/main.91c45844.css.map",
-    "main.ee2effb6.js.map": "/33rd-street-detox/static/js/main.ee2effb6.js.map"
+    "main.1b6f83a5.css.map": "/33rd-street-detox/static/css/main.1b6f83a5.css.map",
+    "main.60c475dc.js.map": "/33rd-street-detox/static/js/main.60c475dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c45844.css",
-    "static/js/main.ee2effb6.js"
+    "static/css/main.1b6f83a5.css",
+    "static/js/main.60c475dc.js"
   ]
 }
