@@ -9,7 +9,7 @@
 }
 
 .wrap2, .wrap3  {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding: 3rem 0;
 }
 
@@ -35,7 +35,7 @@
     width: 600px;
     display: inline-block;
     margin: 1rem;
-    color: white;
+    color: rgb(29, 28, 28);
 }
 
 .wrap1 .left .header2 {

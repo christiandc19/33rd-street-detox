@@ -29,7 +29,6 @@ const Hero = () => {
                 <button>GET AN APPOINTMENT</button>
             </Link>
             </div>
-            <br />
             <Fade bottom>
                 <p>Find your happiness and learn to put it first.</p>
             </Fade>

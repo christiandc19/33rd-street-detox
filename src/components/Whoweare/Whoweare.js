@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import { FaRegStar } from 'react-icons/fa';
 
-import Whoweare1 from '../../assets/whoweare-1.jpg'
+import Whoweare1 from '../../assets/slider1.jpg'
 import Whoweare2 from '../../assets/slider3.jpg'
 import Whoweare3 from '../../assets/slider5.jpg'
 

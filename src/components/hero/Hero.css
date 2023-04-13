@@ -12,9 +12,10 @@
   justify-content: center;
   background: url('../../assets/hero-bg-2.jpg') no-repeat center center/cover;
 }
+
 .sampleContainer {
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 90%;
   margin: 10px auto;
   display: flex;
   align-items: center;
@@ -22,20 +23,16 @@
 }
 
 .sample-left {
-  width: 80%;
+  width: 100%;
   height: 600px;
-  background: url(../../assets/hero-bg.jpg) no-repeat center / cover;
+  background: url(../../assets/whoweare-1.jpg) no-repeat center / cover;
   padding: 1rem;  
   border-radius: 1rem;
-
-  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
-  -moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
-  box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
 }
 
 .sample-right {
   width: 70%;
-  min-height: 400px;
+  min-height: 200px;
   background: rgba(255, 255, 255, 0.671);
   display: flex;
   align-items: center;
@@ -61,16 +58,19 @@
 }
 
 .sample-right h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: lighter;
   color: var(--primary-color);
 }
 
+.sample-right h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 .sample-right p {
   margin: 20px 0;
-  font-weight: 500;
-  line-height: 25px;
-  color: black;
+  color: var(--primary-color);
 }
 
 .sample .hero-button button {
