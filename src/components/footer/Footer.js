@@ -71,9 +71,7 @@ const Footer = () => {
 
                     <div className="col">
                         <h3>SERVICES</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health'><p>Mental Health Program</p></Link>
-                        </LinkRoll>
+
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse'><p>Substance Abuse Program</p></Link>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 import { FaCheck } from 'react-icons/fa';
 
-import Whoweare1 from '../../assets/slider5.png'
+import WRAP3 from '../../assets/wrap3.jpg'
 
 import PROPS from './offersProps';
 
@@ -229,7 +229,7 @@ const Whoweare = () => {
 
         <Fade left>
             <div className="right">
-                <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" />
+                <img src={WRAP3}  alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 </div>
