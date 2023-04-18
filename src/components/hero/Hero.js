@@ -1,42 +1,47 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
 import './Hero.css'
+import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom'
+import { Link as LinkRoll } from 'react-scroll'
+
+import Wave from '../../assets/waves.svg'
+
 
 
 const Hero = () => {
     return (
 <>        
-<div className='sample'>
+<div className='hero'>
 
-<section className='sampleSection'>
-  <div class="sampleContainer">
-    
-    <div class="sample-left"></div>
-    <div class="sample-right">
-      <div class="content">
-      <div className="content">
+<div className='hero-divider'>
+        <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
+    </div>
+
+
+
+    <div className="hero-container">
+        <div className="content">
             
-            <Fade right>
+                <Fade left>
                 <h1 className="animate-charcter">33RD STREET RECOVERY</h1>
                 </Fade>
-            <Fade left>
-                <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
-            </Fade>
-                <br />
-                <div className='hero-button'>
-                <Link to="/contact">
-                <button>GET AN APPOINTMENT</button>
-            </Link>
-            </div>
-            <Fade bottom>
-                <p>Find your happiness and learn to put it first.</p>
-            </Fade>
+                <Fade right>
+                <h2 className='subtitle'>Substance Abuse Addiction Treatment Facility</h2>
+                </Fade>
+
+                <Fade bottom>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                    <Link to="/contact">
+                        <div className='hero-btn'>
+                            <button>Contact Us</button>
+                        </div>
+                    </Link>
+                </LinkRoll>
+                </Fade>
+
         </div>
-      </div>
+
     </div>
-  </div>
-</section>
 </div>
 </>
 

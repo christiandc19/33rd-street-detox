@@ -1,221 +1,315 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap ;
-  justify-content: space-evenly;
-  margin: 1rem 0 0 0;
-  background-color: rgb(255, 255, 255);
-}
 
-.wrap2, .wrap3  {
-    /* background-color: var(--primary-color); */
-    padding: 3rem 0;
-}
 
-.reverse-wrap {
-    flex-wrap: wrap-reverse;
-}
+/* wrap 1 */
 
-.reverse-wrap .right {
-    width: 400px;
-}
-
-.reverse-wrap .right img {
+.wrap1 {
     width: 100%;
-}
-
-
-.reverse-wrap .left {
-    margin-top: 5rem;
-}
-
-.left {
-    height: auto;
-    width: 600px;
-    display: inline-block;
-    margin: 1rem;
-    color: rgb(29, 28, 28);
-}
-
-.wrap1 .left .header2 {
-    font-size: 1rem;
-}
-
-.wrap1 .left p, .wrap4 .left p {
-    color: black;
-}
-
-.wrap .left h1 {
-    color: rgb(255, 166, 0);
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.right {
-    width: 600px;
-    margin: 1rem;
-}
-
-.right img {
-    height: auto;
-    max-width: 100%;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-
-.right3 {
-    width: 600px;
-    margin: 1rem;
-}
-
-.right3 img {
-    height: auto;
-    width: 100%;
-    padding: 10px;
-}
-
-.wrap .header {
-    text-align: left;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.wrap .header2 {
-    text-align: justify;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
-.wrap .header2 span {
-    color: var(--primary-color);
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-.wrap p, .wrap ul li {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-}
-
-.box-btn {
-    text-align: center;
-}
-
-.Whoweare-icon {
-    width: 500px;
-    margin: auto;
-    padding: 1rem;
-}
-
-.icons {
+    height: 90vh;
+    position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 100px;
+    background: rgba(23, 24, 23, 0.575);  
+}
+  
+  .wrap1:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/whoweare-wrap1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+.wrap1 .left {
+    background-color: rgba(6, 126, 156, 0.842);
+    width: 40%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.wrap1 .right {
+    width: 40%;
+}
+
+.wrap1 .left h1 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrap1 .left h2 {
+    color: white;
+    width: 70%;
+    font-size: 3rem;
+    line-height: 4rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.wrap1 .left p {
+    color: white;
+    padding: 0 0 1rem 0;
+}
+
+.wrap1 .left span {
+    font-size: 20px;
+    color: rgb(224, 155, 4);
+}
+
+.wrap1 .left ul li span {
+    font-size: 2rem;
+    color: rgb(224, 155, 4);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1200px) {
+
+    .wrap1 .left {
+        padding: 3rem 1rem;
+        width: 100%;
+    }
+    .wrap1 .left h2 {
+        width: 100%;
+    }
+
+    .wrap1 .left p {
+        text-align: left;
+    }
+
+    .wrap1 {
+        height: 80vh;
+    }
+
+}
+
+
+/* wrap 2 */
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;justify-content: center;
+    gap: 1rem;
+    padding: 3rem 5rem;
+}
+
+.wrap2 {
+    background-color: rgb(241, 241, 241);
+    padding:  0;
+}
+
+.wrap2 .header {
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
-    max-width: 100%;
-    margin: 1rem;
+    padding-top: 3rem;
+}
+
+.wrap2 .header h2 {
+    font-size: 4rem;
+    width: 30%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.addiction-img {
+    width: 450px;
+}
+
+.addiction-img::before {
+    background-color: black;
+}
+
+.addiction-img img {
+    width: 100%;
+}
+
+.addiction-caption {
+    text-align: center;
+}
+
+.addiction-caption h1 {
     padding: 1rem;
-    border: 1px solid rgba(201, 192, 192, 0.308);
 }
 
-.icons p {
-    width: 700px;
-    margin-left: 1rem;
+.addiction-caption p {
+    padding: 1rem 2rem;
 }
 
-.whoweare-header {
-    padding: 0 2rem;
+.addiction-thumbnail {
+    width: 450px;
+    background-color: white;
 }
 
+.thumbnail-btn {
+text-align: center;
+padding: 2rem 0;
+}
 
-.wrap  .left2 {
-    margin-top: 8rem;
+.thumbnail-btn button {
+    padding: 1rem 3rem;
+    border-radius: 1px;
+    margin: auto;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width:1200px) {
+
+    .wrap2 .header h2 {
+        width: 80%;
+    }
+    
+}
+
 @media screen and (max-width:940px) {
 
-.reverse-wrap .left {
-    margin-top: 3rem;
-}
-
-    .hide {
-        display: none;
+    .addiction-thumbnail {
+        width: 100%;
+        background-color: white;
+        padding: 1rem;
     }
-
-    .Whoweare-icon img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .wrap p {
-        font-size: 14px;
-        margin: 1rem;
-    }
-
-    .left .Whoweare-icon{
+    
+    .addiction-img {
         width: 100%;
     }
+    
+    .addiction-img img {
+        object-fit: cover;  
 
-    .left h1 {
-        font-size: 2rem;
     }
 
-    .left button {
-    margin: 1rem auto;
-    }
-
-    .right-img img {
-    display: none;
-    }
-
-    .wrap  .left2 {
-        margin-top: 0rem;
+    .offers {
+        padding: 1rem;
     }
 
 }
 
+/* wrap 3 */
 
-@media screen and (max-width:500px) {
-    .icons {
-        height: 120px;
+.wrap3  {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+}
+
+.wrap3 .right {
+    width: 50%;
+    height: 900px;
+}
+
+ .wrap3 .left {
+    width: 50%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.wrap3 .left h1{
+    font-size: 4rem;
+}
+
+.wrap3 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrap3 .left p {
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    padding: 1rem 0;
+}
+
+.wrap3 .left span {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width:940px) {
+    .wrap3 .left {
+        width: 100%;
+        height: auto;
     }
 
-    .wrap {
-        margin: 1rem 0 0 0;
-      }
-
-    .wrap .header2 span {
-        font-size: 20px;
-}
-
-    .Whoweare-icon {
-        width: 360px;
+    .wrap3 .right {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
     }
 
-    .Whoweare-icon p {
-        font-size: 12px;
+    .wrap3 .left h1{
+        font-size: 2.5rem;
+        padding: 1rem 0;
     }
 
-
-    .Whoweare-icon {
-    width: 300px;
-
+    .wrap3 .left p {
+        font-size: 16px;
+        text-align: left;
+    }
+    
 }
 
 
-.icons {
-    width: 350px;
+/* WRAP 3 */
+
+.wrap4 {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(15, 15, 15, 0.377);  }
+  
+  .wrap4:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/wrap2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+.wrap4-container {
+    top: 25%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
+  .wrap4 .content {
+    top: 20%;
+  }
+
+.wrap4 h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.wrap4 p {
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
 }
 
 
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1200px) {
+    .wrap4 .left {
+        width: 900px;
+    }
+}

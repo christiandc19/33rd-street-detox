@@ -1,148 +1,271 @@
 import React from 'react'
 import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom'
+import { Link as LinkRoll } from 'react-scroll'
+import { FaCheck } from 'react-icons/fa';
 
-import { FaRegStar } from 'react-icons/fa';
+import Whoweare1 from '../../assets/slider5.png'
 
-import Whoweare1 from '../../assets/slider1.jpg'
-import Whoweare2 from '../../assets/slider3.jpg'
-import Whoweare3 from '../../assets/slider5.jpg'
+import PROPS from './offersProps';
 
-import WhatWeDoImg3 from '../../assets/whatwedo2.jpg'
+import { BsCheck2Circle } from 'react-icons/bs';
 
-import Icon1 from '../../assets/icon1.png'
-import Icon2 from '../../assets/icon2.png'
-import Icon3 from '../../assets/icon3.png'
-import Cards from '../../components/servicesCards/Cards';
+import ALCOHOL from '../../assets/offers-alcohol.jpg'
+import COCAINE from '../../assets/offers-cocaine.jpg'
+import FENTANYL from '../../assets/offers-fentanyl.jpg'
+import KRATOM from '../../assets/offers-kratom.jpg'
+import MDMA from '../../assets/offers-mdma.jpg'
+import METH from '../../assets/offers-meth.jpg'
+
+
 
 
 const Whoweare = () => {
   return (
 <>
-
-
 {/* WRAP 1 */}
 
-    <div className='wrap wrap1'>
-        <Fade left>
+    <div className='wrap1'>
             <div className="left">
+                <div className='left-content'>
                 <p>
-                <h1 className='header'>WHO WE ARE</h1><br/>
-                <h2 className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h2>
-                <br/>
-                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
-                <br />
-            </div>
-        </Fade>
+                <Fade left>
+                <h1 className='header'>WHO WE ARE</h1>
+                <h2>Quality Care from Quality Experts.</h2>
+                </Fade>
 
-        <Fade right>
-            <div className="right">
-                <img src={Whoweare1} alt="Conselling Session with a patient" loading="lazy" />
+                <Fade left>
+                <p className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</p>
+                </Fade>
+
+                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p> <br />
+                <p>
+                <ul>
+                    <li>
+                    <p><span><BsCheck2Circle/></span> A comprehensive medical assessment by a doctor to create an individualized treatment plan.</p>
+                    </li>
+                    <li>
+                    <p><span><BsCheck2Circle/></span> Urine tests and other lab tests.</p>
+                    </li>
+                    <li>
+                    <p><span><BsCheck2Circle/></span> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.</p>
+                    </li>
+                </ul>
+                </p>
+                </div>
             </div>
-        </Fade>
+
+
+        <div className="right"></div>
+
     </div>
 
 
 
 {/* WRAP 2 */}
 
-<div className='wrap reverse-wrap wrap2'>
+<div className='wrap2'>
 
-        <Fade right>
-            <div className="right">
-                <img src={Whoweare2} alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
 
         <Fade left>
-            <div className="left">
+            <div className="header">
                 <br/>
                 <p>                
-                <h1 className='header'>EVALUATION INCLUDES:</h1><br/>
+                <h1 className='header'>WHAT WE OFFER</h1>
+                <h2>Getting you back in shape.</h2>  
+                </p>
+                <br />
+            </div>
+        </Fade>
 
-                    <ul>
+            <div className='offers'>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={ALCOHOL}/>
+                            </div>
+                            <div className='addiction-caption'>
+                            <h1>Alcohol Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <Link to="/alcohol">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                    </Fade>
+                </div>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={COCAINE}/>
+                            </div>
+                            <div className='addiction-caption'>
+                            <h1>Cocaine Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>                    
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <Link to="/cocaine">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                    </Fade>
+                </div>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={FENTANYL}/>
+                            </div>
+                            <div className='addiction-caption'>
+                            <h1>Fentanyl Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>                    
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <Link to="/fentanyl">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                            </Fade>
+                </div>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={KRATOM}/>
+                            </div>
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <Link to="/kratom">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                    </Fade>
+                </div>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={MDMA}/>
+                            </div>
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true}    duration={500}>
+                                <Link to="/kratom">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                            </Fade>
+                </div>
+
+                <div className='addiction-thumbnail'>
+                    <Fade bottom>
+                            <div className='addiction-img'>
+                            <PROPS Image={METH}/>
+                            </div>
+                            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <Link to="/meth">
+                                    <div className='thumbnail-btn'>
+                                        <button>Learn More</button>
+                                    </div>
+                                </Link>
+                            </LinkRoll>
+                            </Fade>
+                </div>
+
+            </div>
+
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                    <Link to="/substance-abuse">
+                        <div className='thumbnail-btn'>
+                            <button>View All</button>
+                        </div>
+                    </Link>
+                </LinkRoll>
+    </div>
+
+
+
+
+{/* wrap 3 */}
+
+<div className='wrap3'>
+<Fade right>
+            <div className="left">
+                <h3>WHY CHOOSE US</h3>
+                <h1>Focusing on you, with the best therapeutic care.</h1>
+                <p> 
+                <ul>
                     <li>
-                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li>
+                        <FaCheck className='star'/> DEDICATED STAFF.
+                        The medical professionals on our team are completely dedicated to your recovery.
+
+
+                    </li><br />
                     <li>
-                        <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li>
+                        <FaCheck className='star'/> PROVEN METHODS. Our treatment methods are solely based on proven research and science-based evidence.
+
+
+                    </li><br />
                     <li>
-                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
-                    </li>
+                        <FaCheck className='star'/> 24/7 SUPPORT. Guidance and support are always in reach. We provide care for you whenever needed.
+
+
+                    </li><br />
                 </ul>
                 </p>
-                <br />
-                <p>
-                Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
-                </p>
-            </div>
-        </Fade>
-    </div>
-
-<Cards />
-
-{/* WRAP 3 */}
-<div className='wrap reverse-wrap wrap3'>
-        <Fade right>
-            <div className="right3">
-                <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 
         <Fade left>
-            <div className="left left2">
-                <div>
-                <h1 className='header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1><br/>
-                <p>You may have lost your way but here you won’t get lost in the crowd. 23rd Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life.</p>
-                </div>
-                <br />
-            </div>
-        </Fade>
-    </div>
-
-
-
-
-{/* WRAP 4 */}
-<div className='wrap wrap4'>
-        <Fade left>
-        
-        <div className='left'>
-        <div className='Whoweare-icon'>
-                <Fade left>
-                    <div className='icons'>
-                        <img src={Icon1}  alt="Conselling Session with a patient" loading="lazy" />
-                        <p><span>DEDICATED STAFF</span> <br/> The medical professionals on our team are completely dedicated to your recovery. </p>
-                    </div>
-                </Fade>
-
-                <Fade right>
-                    <div className='icons'>
-                        <img src={Icon2} alt="Conselling Session with a patient" loading="lazy" />
-                        <p><span>PROVEN METHODS</span> <br/> Our treatment methods are solely based on proven research and science-based evidence.</p>
-                    </div>
-                </Fade>
-
-                <Fade left>
-                    <div className='icons'>
-                        <img src={Icon3} alt="Conselling Session with a patient" loading="lazy" />
-                        <p><span>24/7 SUPPORT</span> <br/> Guidance and support are always in reach. We provide care for you whenever needed.</p>
-                    </div>
-                </Fade>
-            </div>
-        </div>
-        </Fade>
-
-        <Fade right>
             <div className="right">
-                <img src={Whoweare3} alt="Conselling Session with a patient" loading="lazy" />
+                <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
-    </div>
+</div>
 
+
+
+{/* wrap 3 */}
+
+<div className='wrap4'>
+
+    <div className="wrap4-container">
+        <Fade right>
+            <div className="content">
+                <p>
+                <h1>A healthier choice for a healthier you. </h1>
+                </p><br />
+                <p>
+ 
+                We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
+                </p> <br />
+                </div>
+                
+        </Fade>
+        </div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                    <Link to="/contact">
+                        <div className='thumbnail-btn'>
+                            <button>Contact Us</button>
+                        </div>
+                    </Link>
+                </LinkRoll>
+    </div>
 
 </>
+
+
   )
 }
 

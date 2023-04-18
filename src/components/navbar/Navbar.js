@@ -68,7 +68,7 @@ const Navbar = () => {
                     </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
+                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
                         </ul>
 
                     </li>
-
+ */}
 
 
                     <li><Link to='/treatment'>Treatment</Link> </li>
