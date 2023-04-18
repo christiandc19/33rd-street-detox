@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/33rd-street-detox/static/css/main.e0161d4f.css",
-    "main.js": "/33rd-street-detox/static/js/main.bd12219f.js",
+    "main.css": "/33rd-street-detox/static/css/main.95f9b509.css",
+    "main.js": "/33rd-street-detox/static/js/main.a3931e17.js",
     "static/media/menu-bg-contact.jpg": "/33rd-street-detox/static/media/menu-bg-contact.06b8e688c171f379f147.jpg",
     "static/media/whoweare-wrap1.jpg": "/33rd-street-detox/static/media/whoweare-wrap1.053e3709e3d746ad4e5c.jpg",
     "static/media/method-bg.jpg": "/33rd-street-detox/static/media/method-bg.3efbb07a6dd699b3e11b.jpg",
@@ -60,11 +60,11 @@
     "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.e0161d4f.css.map": "/33rd-street-detox/static/css/main.e0161d4f.css.map",
-    "main.bd12219f.js.map": "/33rd-street-detox/static/js/main.bd12219f.js.map"
+    "main.95f9b509.css.map": "/33rd-street-detox/static/css/main.95f9b509.css.map",
+    "main.a3931e17.js.map": "/33rd-street-detox/static/js/main.a3931e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0161d4f.css",
-    "static/js/main.bd12219f.js"
+    "static/css/main.95f9b509.css",
+    "static/js/main.a3931e17.js"
   ]
 }
