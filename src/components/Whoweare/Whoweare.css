@@ -42,7 +42,6 @@
 
 .wrap1 .left h2 {
     color: white;
-    width: 70%;
     font-size: 3rem;
     line-height: 4rem;
     padding: 2rem 0 2rem 0;
@@ -74,6 +73,7 @@
     }
     .wrap1 .left h2 {
         width: 100%;
+        font-size: 2.5rem;
     }
 
     .wrap1 .left p {
@@ -81,7 +81,7 @@
     }
 
     .wrap1 {
-        height: 80vh;
+        width: 100%;
     }
 
 }
@@ -106,11 +106,17 @@
     padding-top: 3rem;
 }
 
+.wrap2 .header h1 {
+    color: black;
+    font-size: 1.3rem;
+}
+
 .wrap2 .header h2 {
     font-size: 4rem;
     width: 30%;
     margin: auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    line-height: 4rem;
 }
 
 .addiction-img {
@@ -159,9 +165,14 @@ padding: 2rem 0;
 }
 
 .viewAll button {
-    border: 2px solid rgb(9, 149, 173);
+    border: 2px solid rgb(224, 155, 4);
     border-radius: .5rem;
+    background-color: rgb(224, 155, 4);
 }
+
+.viewAll button:hover {
+    color: var(--primary-color);
+} 
 
 /* MEDIA QUERIES */
 
@@ -219,6 +230,7 @@ padding: 2rem 0;
 
 .wrap3 .left h1{
     font-size: 4rem;
+    line-height: 4rem;
 }
 
 .wrap3 .right img {
@@ -264,6 +276,10 @@ padding: 2rem 0;
         font-size: 16px;
         text-align: left;
     }
+
+    .wrap3 {
+        width: 100%;
+    }
     
 }
 
@@ -294,24 +310,23 @@ padding: 2rem 0;
     position: relative;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 
   .wrap4 .content {
     top: 20%;
+    padding: 1rem;
   }
 
 .wrap4 h1 {
     color: white;
     font-size: 4rem;
     text-align: center;
-    padding: 1rem;
 }
 
 .wrap4 p {
     text-align: center;
     color: white;
-    padding: 0 1rem;
 }
 
 
@@ -319,8 +334,12 @@ padding: 2rem 0;
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:1200px) {
-    .wrap4 .left {
-        width: 900px;
+@media screen and (max-width:940px) {
+    .wrap4 h1 {
+        font-size: 3rem;
+    }
+
+    .wrap4 {
+        width: 100%;
     }
 }
