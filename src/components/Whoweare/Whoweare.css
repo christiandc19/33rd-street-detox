@@ -74,6 +74,8 @@
     .wrap1 .left h2 {
         width: 100%;
         font-size: 2.5rem;
+        line-height: 2.5rem;
+
     }
 
     .wrap1 .left p {
@@ -270,6 +272,7 @@ padding: 2rem 0;
     .wrap3 .left h1 {
         font-size: 2.5rem;
         padding: 1rem 0;
+        line-height: 2.5rem;
     }
 
     .wrap3 .left p {
@@ -337,6 +340,8 @@ padding: 2rem 0;
 @media screen and (max-width:940px) {
     .wrap4 h1 {
         font-size: 3rem;
+        line-height: 3rem;
+
     }
 
     .wrap4 {

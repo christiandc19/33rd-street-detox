@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
-import Wave from '../../assets/waves.svg'
+// import Wave from '../../assets/waves.svg'
 
 
 
@@ -13,9 +13,9 @@ const Hero = () => {
 <>        
 <div className='hero'>
 
-<div className='hero-divider'>
+{/* <div className='hero-divider'>
         <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-    </div>
+    </div> */}
 
 
 
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="content">
             
                 <Fade left>
-                <h1 className="animate-charcter">33RD STREET RECOVERY</h1>
+                <h1 className="animate-charcter">33RD STREET <br /> RECOVERY</h1>
                 </Fade>
                 <Fade right>
                 <h2 className='subtitle'>Substance Abuse Addiction Treatment Facility</h2>
