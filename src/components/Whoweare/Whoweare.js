@@ -29,30 +29,40 @@ const Whoweare = () => {
     <div className='wrap1'>
             <div className="left">
                 <div className='left-content'>
-                <p>
                 <Fade left>
                 <h1 className='header'>WHO WE ARE</h1>
                 <h2>Quality Care from Quality Experts.</h2>
                 </Fade>
 
                 <Fade left>
-                <p className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</p>
+                <p className='header2'>At <span>33rd Street Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.
+                </p>
                 </Fade>
 
-                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p> <br />
+                <Fade left>
                 <p>
+                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.
+                </p>
+                </Fade>
+                 <br />
                 <ul>
+                    <Fade left>
                     <li>
                     <p><span><BsCheck2Circle/></span> A comprehensive medical assessment by a doctor to create an individualized treatment plan.</p>
                     </li>
+                    </Fade>
+                    <Fade left>
                     <li>
                     <p><span><BsCheck2Circle/></span> Urine tests and other lab tests.</p>
                     </li>
+                    </Fade>
+                    <Fade left>
                     <li>
-                    <p><span><BsCheck2Circle/></span> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.</p>
+                    <p><span><BsCheck2Circle/></span> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
+                    </p>
                     </li>
+                    </Fade>
                 </ul>
-                </p>
                 </div>
             </div>
 
@@ -143,6 +153,10 @@ const Whoweare = () => {
                             <div className='addiction-img'>
                             <PROPS Image={KRATOM}/>
                             </div>
+                            <div className='addiction-caption'>
+                            <h1>Kratom Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/kratom">
                                     <div className='thumbnail-btn'>
@@ -158,8 +172,12 @@ const Whoweare = () => {
                             <div className='addiction-img'>
                             <PROPS Image={MDMA}/>
                             </div>
+                            <div className='addiction-caption'>
+                            <h1>MDMA Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true}    duration={500}>
-                                <Link to="/kratom">
+                                <Link to="/mdma">
                                     <div className='thumbnail-btn'>
                                         <button>Learn More</button>
                                     </div>
@@ -173,6 +191,10 @@ const Whoweare = () => {
                             <div className='addiction-img'>
                             <PROPS Image={METH}/>
                             </div>
+                            <div className='addiction-caption'>
+                            <h1>Meth Addiction</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/meth">
                                     <div className='thumbnail-btn'>
@@ -187,7 +209,7 @@ const Whoweare = () => {
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/substance-abuse">
-                        <div className='thumbnail-btn'>
+                        <div className='thumbnail-btn viewAll'>
                             <button>View All</button>
                         </div>
                     </Link>

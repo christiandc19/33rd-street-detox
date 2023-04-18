@@ -28,7 +28,7 @@ const Cards = () => {
 <div class="card-wrap">
 
 
-<div class="tile"> 
+<div class="tile tile1"> 
 <Fade top>
 <img src={Card2} alt="Substance Use" loading="lazy"/>
 </Fade>

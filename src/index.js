@@ -5,7 +5,7 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import TreatmentPage from './routes/TreatmentPage'
+import MethodPage from './routes/MethodPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import ResidencePage from './routes/ResidencePage'
@@ -73,7 +73,7 @@ ReactDOM.render(
       <Route exact path='/schizophrenia' element={<Schizophrenia />} />
 
       <Route exact path='/jobs' element={<Jobs />} />
-      <Route exact path='/treatment' element={<TreatmentPage />} />
+      <Route exact path='/method' element={<MethodPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
 
       <Route exact path='/about-us' element={<AboutPage />} />
