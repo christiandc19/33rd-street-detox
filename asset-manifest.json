@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/33rd-street-detox/static/css/main.781f5076.css",
-    "main.js": "/33rd-street-detox/static/js/main.c3b9fd08.js",
+    "main.css": "/33rd-street-detox/static/css/main.001e23db.css",
+    "main.js": "/33rd-street-detox/static/js/main.3a3eed8d.js",
     "static/media/menu-bg-contact.jpg": "/33rd-street-detox/static/media/menu-bg-contact.06b8e688c171f379f147.jpg",
     "static/media/whoweare-wrap1.jpg": "/33rd-street-detox/static/media/whoweare-wrap1.053e3709e3d746ad4e5c.jpg",
     "static/media/method-bg.jpg": "/33rd-street-detox/static/media/method-bg.3efbb07a6dd699b3e11b.jpg",
@@ -44,7 +44,6 @@
     "static/media/sub-card-bg.jpg": "/33rd-street-detox/static/media/sub-card-bg.1a6823c5cb6f61584faa.jpg",
     "static/media/team4-min.jpg": "/33rd-street-detox/static/media/team4-min.51ae7ebc36bfd768e61c.jpg",
     "static/media/team3-min.jpg": "/33rd-street-detox/static/media/team3-min.877c3db3df0c897c1348.jpg",
-    "static/media/group.jpg": "/33rd-street-detox/static/media/group.24202f3813533aeb44a6.jpg",
     "static/media/staff.jpg": "/33rd-street-detox/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/team2-min.jpg": "/33rd-street-detox/static/media/team2-min.e706e26d4aabb9a13ac3.jpg",
     "static/media/team5-min.jpg": "/33rd-street-detox/static/media/team5-min.d726e8e87fc5c440d66d.jpg",
@@ -53,18 +52,23 @@
     "static/media/team6-min.jpg": "/33rd-street-detox/static/media/team6-min.ab3ea8b49b168c671184.jpg",
     "static/media/clinic.jpg": "/33rd-street-detox/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/team1-min.jpg": "/33rd-street-detox/static/media/team1-min.4396fea94291b3910114.jpg",
-    "static/media/united-healthcare.png": "/33rd-street-detox/static/media/united-healthcare.78400c2f51fba67d0aff.png",
-    "static/media/horizon.png": "/33rd-street-detox/static/media/horizon.93f9071008042e378717.png",
-    "static/media/umr.png": "/33rd-street-detox/static/media/umr.0e284d15516d535bf42b.png",
-    "static/media/aetna.png": "/33rd-street-detox/static/media/aetna.ba1c7baa5f90d207ae2b.png",
-    "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.2f180be7d5ab799101c3.png",
+    "static/media/umr.png": "/33rd-street-detox/static/media/umr.90b117cc78229ef7c5f9.png",
+    "static/media/anthem.png": "/33rd-street-detox/static/media/anthem.e3f48eec6f2f57746acb.png",
+    "static/media/beacon.png": "/33rd-street-detox/static/media/beacon.75cac72646ba394a6ac9.png",
+    "static/media/bluecross.png": "/33rd-street-detox/static/media/bluecross.c9a35529b077716e6ed0.png",
+    "static/media/optum.png": "/33rd-street-detox/static/media/optum.de349dabe21ac26a99f2.png",
+    "static/media/cigna.png": "/33rd-street-detox/static/media/cigna.bb1cb3b6bb9b97dec5d2.png",
+    "static/media/optima.png": "/33rd-street-detox/static/media/optima.a1db662590e6c9452a3e.png",
+    "static/media/horizon.png": "/33rd-street-detox/static/media/horizon.334f88ff25440b6a7b9c.png",
+    "static/media/united-healthcare.png": "/33rd-street-detox/static/media/united-healthcare.3232942dcd76167b3bca.png",
+    "static/media/aetna.png": "/33rd-street-detox/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/33rd-street-detox/index.html",
     "static/media/waves.svg": "/33rd-street-detox/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.781f5076.css.map": "/33rd-street-detox/static/css/main.781f5076.css.map",
-    "main.c3b9fd08.js.map": "/33rd-street-detox/static/js/main.c3b9fd08.js.map"
+    "main.001e23db.css.map": "/33rd-street-detox/static/css/main.001e23db.css.map",
+    "main.3a3eed8d.js.map": "/33rd-street-detox/static/js/main.3a3eed8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.781f5076.css",
-    "static/js/main.c3b9fd08.js"
+    "static/css/main.001e23db.css",
+    "static/js/main.3a3eed8d.js"
   ]
 }
