@@ -6,7 +6,7 @@
 
 .wrap1 {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -27,8 +27,8 @@
 .wrap1 .left {
     background-color: rgba(6, 126, 156, 0.842);
     width: 40%;
-    height: 100%;
-    padding: 2rem;
+    height: 100vh;
+    padding: 5rem 2rem;
 }
 
 .wrap1 .right {
@@ -50,6 +50,7 @@
 .wrap1 .left p {
     color: white;
     padding: 0 0 1rem 0;
+    text-align: left;
 }
 
 .wrap1 .left span {
@@ -68,24 +69,25 @@
 @media screen and (max-width:1200px) {
 
     .wrap1 .left {
-        padding: 3rem 1rem;
+        padding: 7rem 3rem;
         width: 100%;
     }
+
     .wrap1 .left h2 {
         width: 100%;
         font-size: 2.5rem;
         line-height: 2.5rem;
-
-    }
-
-    .wrap1 .left p {
-        text-align: left;
     }
 
     .wrap1 {
         width: 100%;
     }
+}
 
+@media screen and (max-width:700px) {
+    .wrap1 .left p {
+        text-align: justify;
+    }
 }
 
 

@@ -98,7 +98,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>Alcohol Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>Alcoholism can negatively impact career goals, personal relationships, and responsibilities, not to mention your physical health.</p>
                             </div>
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/alcohol">
@@ -117,7 +117,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>Cocaine Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>According to Addiction Center, more people are admitted to emergency rooms for cocaine use than any other drug.</p>
                             </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/cocaine">
@@ -136,7 +136,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>Fentanyl Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>A highly addictive stimulant that affects the brain by elevating levels of dopamine (a chemical associated with reward or pleasure).</p>
                             </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/fentanyl">
@@ -155,7 +155,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>Kratom Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>Kratom use cite both mental and physical health reasons for taking the drug, ranging from anxiety and depression to pain management. </p>
                             </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/kratom">
@@ -174,7 +174,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>MDMA Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>MDMA use appears to affect the body’s dopamine and serotonin levels associated with substance use disorders.</p>
                             </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true}    duration={500}>
                                 <Link to="/mdma">
@@ -193,7 +193,7 @@ const Whoweare = () => {
                             </div>
                             <div className='addiction-caption'>
                             <h1>Meth Addiction</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <p>Long-term effects of meth use can be devastating, and range from dental problems, psychosis, brain damage, organ problems, and even death.</p>
                             </div>                    
                             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                 <Link to="/meth">
