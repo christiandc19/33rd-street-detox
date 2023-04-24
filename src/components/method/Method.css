@@ -7,12 +7,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: rgba(13, 14, 13, 0.308);  }
+  background: rgba(0, 0, 0, 0.541);  }
 
 .method:before {
   content: '';
   position: absolute;
-  background: url('../../assets/method-bg.jpg') no-repeat center top/cover;
+  background: url('../../assets/method-bg-min.jpg') no-repeat center top/cover;
   height: 100%;
   width: 100%;
   z-index: -1;

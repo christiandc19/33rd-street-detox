@@ -27,8 +27,9 @@
 .wrap1 .left {
     background-color: rgba(6, 126, 156, 0.842);
     width: 40%;
-    height: auto;
     padding: 3rem 2rem;
+    margin:auto;
+    border-radius: 1rem;
 }
 
 .wrap1 .right {
@@ -65,12 +66,14 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:940px) {
 
     .wrap1 .left {
         padding: 7rem 3rem;
         width: 100%;
-        height: 100vh;
+        margin: 2rem;
+        padding: 3rem;
+        width: 100%;
     }
 
     .wrap1 .left h2 {
@@ -82,13 +85,8 @@
     .wrap1 {
         width: 100%;
     }
-}
 
-@media screen and (max-width:940px) {
-    .wrap1 .left {
-        padding: 3rem;
-        width: 100%;
-    }
+
 }
 
 
