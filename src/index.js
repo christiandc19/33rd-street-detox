@@ -6,6 +6,7 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import MethodPage from './routes/MethodPage'
+import TreatmentPage from './routes/TreatmentPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import ResidencePage from './routes/ResidencePage'
@@ -28,7 +29,6 @@ import XANAX from './routes/XANAX';
 import SA from './routes/SA';
 
 import Jobs from './routes/JOBS';
-import Team from './routes/Team';
 
 
 ReactDOM.render(
@@ -50,13 +50,10 @@ ReactDOM.render(
 
       <Route exact path='/jobs' element={<Jobs />} />
       <Route exact path='/method' element={<MethodPage />} />
+      <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
-
       <Route exact path='/about-us' element={<AboutPage />} />
-      <Route exact path='/team' element={<Team />} />
-      
       <Route exact path='/substance-abuse' element={<SA />} />
-
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />

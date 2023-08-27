@@ -4,6 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import SA from '../components/SA/SA'
 import SASection from '../components/SA/SASection'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const SAbuse = () => {
@@ -12,6 +13,7 @@ const SAbuse = () => {
     <Navbar /> 
     <SA />
     <SASection />
+    <ContactForm />
     <Footer />
      </>
   )

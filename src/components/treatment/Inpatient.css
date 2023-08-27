@@ -1,0 +1,57 @@
+.inpatient {
+    padding: 3rem 0;
+}
+
+.inpatient-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.inpatient-header {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.inpatient-left {
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+.inpatient-left li {
+    line-height: 1.5rem;
+}
+
+.inpatient-left h1 {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.inpatient-right {
+    width: 400px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.inpatient-right img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:940px) {
+
+    .inpatient-content {
+        flex-wrap: wrap;
+    }
+
+    .inpatient-left {
+        width: 80%;;
+    }
+
+    .inpatient-right {
+        width: 90%;
+    }
+    
+}

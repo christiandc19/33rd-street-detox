@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+.card-bg {
+  padding: 5rem 0;
+}
+
 .card-wrap
 {
   width:100%;
@@ -7,7 +11,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items:space-around;
-  margin: 2rem 0 8rem 0;
 }
 
 .tile
@@ -50,7 +53,7 @@
 
 .tile h1
 {
-  color: white;
+  color: rgb(247, 244, 242);
   font-size: 20px;
   font-weight:300;
   margin:0;
@@ -60,7 +63,7 @@
 
 .tile p
 {
-  color: rgb(255, 255, 255);
+  color: rgb(241, 239, 236);
   font-size: 14px;
   font-weight:300;
   margin:20px 0 0 0;
@@ -99,29 +102,17 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 .cards-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-    width: auto;
-    padding: 20px;
     text-align: center;
-    padding: 5rem 1rem 2rem 1rem;
 }
 
-.cards-header-left {
-  width: 500px;
+.cards-header h1 {
+  padding: 1rem 0;
 }
 
-.cards-header-right {
-  width: 600px;
-  padding:  0 1rem;
+.cards-header p {
+  padding: 1rem 0;
 }
 
-.cards-header-left h1 {
-    margin: 1rem auto;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .cards-header span {
     font-size: 18px;
@@ -129,10 +120,6 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     font-family: 'Montserrat', sans-serif;
 }
 
-.cards-header p {
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
-}
 
 
 .tile-btn button {

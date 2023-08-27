@@ -5,7 +5,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 import Fade from 'react-reveal/Fade';
 
-
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
@@ -17,8 +16,18 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 4000);
+        
+        
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -38,17 +47,17 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3234439913"> +1 (323) 443-9913</a></p>
+            <p><AiOutlinePhone /><a href="tel:3237920399"> +1 (323) 792-0399</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@33rdStreetDetox.com  </p><br />
+            <p><AiOutlineMail /> info@naturalresthouse.com  </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 1018 E 33rd St, Los Angeles CA 90011</p>
+            <p><BsFillPinMapFill /> 79100 Ocotillo Dr La Quinta, CA 92253</p>
     </div>
 
 </div>
@@ -69,9 +78,20 @@ const ContactForm = () => {
 
               </div>
               <div>
-                <textarea name="message" placeholder="How can we help?" cols="30" rows="8" required></textarea>
+                <textarea name="message" placeholder="How can we help?" cols="50" rows="8" required></textarea>
+
                 <input type="submit" value="Submit" />
+
+                <div className="textarea2 feedback hidden">
+              <textarea name="message2" cols="30" rows="3" required>Message Sent to 33rd Street Detox!</textarea>
               </div>
+
+              </div>
+
+
+
+
+
             </form>
 </div>
 

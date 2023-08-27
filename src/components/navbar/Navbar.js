@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo-2.png'
 import {FiChevronDown } from "react-icons/fi";
-
+import { AiOutlineMobile } from 'react-icons/ai';
 import './NavbarStyles.css'
 
 const Navbar = () => {
@@ -37,20 +37,38 @@ const Navbar = () => {
         boxClassSubMenu.push('');
     }
 
+
+    window.onscroll = () => {
+        const nav = document.querySelector('#nav');
+        if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+      };
+
+
     return (
-        <div name='top' className='navbar'>
-            <div className="navbar-container">
-                
-                 <div className="navbar-logo">
-                    <Link to='/'>
-                    <img src={logo} width="180px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
-                    </Link>
-                </div>
+        <div name='top' className='navbar' id='nav'>
+
+
+            <div className="navbarContainer">
+
+
+                        <div className="navbar-logo">
+                            <Link to='/'>
+                            <img src={logo} alt="Palm Springs Rehab Logo" loading="lazy"/>
+                            </Link>
+                        </div>
+
+
+<div className='menu-container'>
+
+                        <div className="hamburger" onClick={handleNav}>
+                            {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
+                        </div>
+
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to='/substance-abuse'> Addiction <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
@@ -66,38 +84,23 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax </NavLink> </li>
                         </ul>
                     </li>
-
-
-                    <li><Link to='/method'>Our Method</Link> </li>
-
-
-
-
-
-
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li>
-
-                        </ul>
-                    </li>
-
-
-
-
-
+                    <li><Link to='/treatment'>Treatment</Link> </li>
+                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                     <li><Link to='/residence'>Residence</Link> </li>
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
 
-                <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
-                </div>
+                
+                <div className='navbar-number hide'>
+                                    <p><AiOutlineMobile /></p>
+                                    <a href="tel:3234439913"> (323) 443-9913</a>
+                            </div>
+
+</div>
+
+
             </div>
         </div>
     )

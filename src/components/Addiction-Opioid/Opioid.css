@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
 .opioid {
     width: 100%;
-    height: 80vh;
-    background: rgba(42, 14, 73, 0.486);
+    height: 100vh;
+    background: rgba(235, 230, 230, 0.055);
     position: relative;
   }
   
   .opioid:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/addiction-submenu-bg.jpg') no-repeat center top/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
@@ -27,34 +26,30 @@
 .opioid .opioid-content {
     display: block;
     position: absolute;
-    top: 30%;
+    bottom: 40%;
+    right: 5%;
     padding: 1rem;
 }
 
 .opioid h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgb(2, 22, 22);
+    text-align: center;
 }
 
-.opioid h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-.opioid h1 {
-    font-size: 2rem;
-}
+    .opioid .opioid-content {
+        width: 100%;
+        right: 0%;
+    }
 
-.opioid h3 {
-    font-size: 1rem;
-}
-
-
+    .opioid h1 {
+        font-size: 3rem;
+    }
 
 }

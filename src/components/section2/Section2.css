@@ -1,0 +1,146 @@
+.section2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .section2:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.05;
+  }
+
+
+.section2-content {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 0 5px;
+}
+
+.section2-header {
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.section2-header p {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.section2-content .flexItem {
+    width: 500px;
+    position: relative;
+}
+
+
+.section2-content .flexItem img {
+    width: 100%;
+    z-index: 1;
+}
+
+
+.flexItem h1 {
+    color: white;
+    font-size: 3rem;
+    opacity: 0.3;
+}
+
+.flexItem h2 {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+  .flexItem p {
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .flexItem button {
+    background-color: var(--primary-color);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    position: relative;
+    z-index: 0;
+    transition: all 1s ease;
+  }
+  
+  .overlay::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 15, 15, 0.329);
+      /* !!! */
+      z-index: 1;
+  }
+
+
+  .section2 .info1 {
+    position: absolute;
+    bottom: 5%;
+    padding: 1rem;
+    z-index: 2;
+  }
+
+  .section2 .info2 {
+    position: absolute;
+    top: 5%;
+    padding: 1rem;
+    z-index: 2;
+  }
+
+
+  .section2 .info3 {
+    position: absolute;
+    bottom: 5%;
+    padding: 1rem;
+    z-index: 2;
+  }
+
+  .section2 .info4 {
+    position: absolute;
+    top: 5%;
+    padding: 1rem;
+    z-index: 2;
+  }
+
+  .viewAllBtn {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .viewAllBtn button {
+    background-color: var(--primary-color);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;
+  }
+
+  .viewAllBtn button:hover {
+    background-color: rgb(50, 81, 102);
+    border: none;
+  }
+
+
+  @media screen and (max-width:700px) {
+    
+    .section2-content {
+        flex-wrap: wrap;
+    }
+
+    
+  }

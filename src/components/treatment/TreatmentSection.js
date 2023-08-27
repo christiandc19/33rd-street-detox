@@ -95,7 +95,6 @@ const TreatmentSection = () => {
                     <li> <FaRegStar className='star'/> Attend weekly group and counseling as you move back to your normal life.
                     </li>
                     </ul><br/>
-
                     </p>
                 <br />
             </div>

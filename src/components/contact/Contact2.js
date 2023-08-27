@@ -30,7 +30,7 @@ const ContactForm = () => {
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Addiction and Recovery Support team is available to assist you.</p>
     </div>
 
 <div class="contact2-container">
@@ -41,20 +41,20 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">1018 E 33rd St,</div>
-          <div class="text-two">Los Angeles CA 90011</div>
+          <div class="text-one">79100 Ocotillo Dr</div>
+          <div class="text-two">La Quinta, CA 92253</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234439913"> +1 (323) 443-9913</a></div>
+          <div class="text-one"><a href="tel:3237920399"> +1 (323)  792-0399</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one"> info@33rdStreetDetox.com</div>
+          <div class="text-one"> info@naturalresthouse.com</div>
         </div>
       </div>
 
