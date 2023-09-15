@@ -89,7 +89,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(212, 42, 212);
+  background-color: rgb(15, 15, 15);
   border-color: var(--secondary-color);
   color: #fff;
 }
@@ -138,8 +138,5 @@ input[type="submit"]:hover {
       margin: 4rem 1rem 2rem 1rem;
     }
 
-    iframe {
-      display: none;
-    }
   }
 

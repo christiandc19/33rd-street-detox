@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-2.png'
-import {FiChevronDown } from "react-icons/fi";
+// import {FiChevronDown } from "react-icons/fi";
 import { AiOutlineMobile } from 'react-icons/ai';
 import './NavbarStyles.css'
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to='/substance-abuse'> Addiction <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to='/substance-abuse'> Addiction </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
@@ -84,7 +84,7 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax </NavLink> </li>
                         </ul>
                     </li>
-                    <li><Link to='/treatment'>Treatment</Link> </li>
+                    <li><Link to='/detox'>Detox Programs</Link> </li>
                     <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                     <li><Link to='/residence'>Residence</Link> </li>
                     <li><Link to='/jobs'>Jobs Program</Link> </li>

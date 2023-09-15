@@ -1,11 +1,11 @@
-.treatment {
+.detox {
     width: 100%;
     height: 100vh;
     background: rgba(241, 238, 238, 0);
     position: relative;
   }
   
-  .treatment:before {
+  .detox:before {
     content: '';
     position: absolute;
     background: url('../../assets/method-bg-min.jpg') no-repeat center top/cover;
@@ -15,13 +15,13 @@
   }
   
   
-  .treatment {
+  .detox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .treatment .treatment-content {
+  .detox .detox-content {
     display: block;
     position: absolute;
     bottom: 20%;
@@ -29,7 +29,7 @@
     padding: 1rem;
   }
   
-  .treatment h1 {
+  .detox h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: rgb(243, 235, 235);
@@ -40,7 +40,7 @@
 
 @media screen and (max-width:940px) {
 
-    .treatment h1 {
+    .detox h1 {
         font-size: 3rem;
     }
     }
