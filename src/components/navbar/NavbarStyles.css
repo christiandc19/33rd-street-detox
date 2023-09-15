@@ -16,7 +16,7 @@
 .navbarContainer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 1rem;
 }
 
@@ -151,6 +151,10 @@
         display: block;
     }
 
+    .navbarContainer {
+      justify-content: space-between;
+    }
+
     /* .hide {
       display: none;
     } */
@@ -201,10 +205,6 @@
       .sub__menus {
         width: 250px;
       }
-
-      /* .navbar .navbarContainer {
-        width: 100%;
-      } */
 
 }
 

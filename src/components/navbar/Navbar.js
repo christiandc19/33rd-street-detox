@@ -58,7 +58,7 @@ const Navbar = () => {
                         </div>
 
 
-<div className='menu-container'>
+            <div className='menu-container'>
 
                         <div className="hamburger" onClick={handleNav}>
                             {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
@@ -85,8 +85,8 @@ const Navbar = () => {
                         </ul>
                     </li>
                     <li><Link to='/detox'>Detox Programs</Link> </li>
-                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
-                    <li><Link to='/residence'>Residence</Link> </li>
+                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/about-us`}> About Us</NavLink> </li>
+                    {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
