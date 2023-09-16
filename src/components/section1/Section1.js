@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section1.css'
-import IMG1 from '../../assets/section1-1.png'
+import IMG1 from '../../assets/section1-1.jpg'
 
 const Section1 = () => {
   return (
