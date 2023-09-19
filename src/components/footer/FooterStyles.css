@@ -30,7 +30,6 @@
   }
   
   .logo-footer img {
-    margin-left: 1rem;
     width: 100%;
   }
   
@@ -66,6 +65,7 @@
 
 .col {
     text-align: center;
+    width: 30%;
 }
 
 .footer h3 {
@@ -134,19 +134,21 @@
         height: 100%;
     }
 
-    .footer .col-container {
-        grid-template-columns: 3fr 3fr 3fr ;
-    }
 
-    .footer form {
-        grid-column: 1 / span 4;
-        text-align: center;
-    }
 
     .footer h1, .footer h2, .footer h3, .footer p {
         text-align: center;
     }
+
     
 }
 
 
+
+@media screen and (max-width: 600px) {
+
+    .col {
+        width: 100%;
+    }
+    
+}

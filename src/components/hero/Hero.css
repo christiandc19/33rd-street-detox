@@ -19,10 +19,6 @@
     width: 100%;
 }
 
-.hero-logo {
-    text-align: center;
-}
-
 
 .hero-container p {
     font-size: 5rem;
@@ -36,73 +32,7 @@
     line-height: 4rem;
 }
 
-/* .hero .hero-btn button {
-    cursor: pointer;
-} */
 
-/* button */
-
-.hero-btn {
-    width: 100%;
-    text-align: center;
-}
-
-.hero-cta {
-    position: relative;
-    padding: 12px 18px;
-    transition: all 0.2s ease;
-    border: none;
-    background: none;
-    justify-content: center;
-   }
-   
-   .hero-cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: #5a5c82;
-    width: 45px;
-    height: 45px;
-    transition: all 0.3s ease;
-   }
-   
-   .hero-cta span {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #f0f1f1;
-   }
-   
-   .hero-cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #f0f1f1;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-   }
-   
-   .hero-cta:hover:before {
-    width: 100%;
-    background: #5a5c82;
-   }
-   
-   .hero-cta:hover svg {
-    transform: translateX(0);
-   }
-   
-   .hero-cta:active {
-    transform: scale(0.95);
-   }
 
 
 /* MEDIA QUERIES */
@@ -110,7 +40,7 @@
 @media screen and (max-width:650px) {
 
     .hero-container p {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 

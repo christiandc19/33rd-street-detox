@@ -22,29 +22,6 @@ const Footer = () => {
                 </div>
                 <div className="col-container">
 
-                    <div className="col">
-                        <h3>Company</h3>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'>
-                            <p>Our Mission</p>
-                        </Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/about-us'><p>About Us</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/team'><p>Our Team</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Testimonials</p></Link>
-                        </LinkRoll>
-
-                    </div>
-
 
                     <div className="col">
                         <h3>Navigation</h3>
@@ -58,7 +35,7 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/contact'><p>Contact</p></Link>
+                        <Link to='/about-us'><p>About Us</p></Link>
                         </LinkRoll>
                     </div>
 
@@ -66,7 +43,7 @@ const Footer = () => {
                     <div className="col">
                         <h3>SERVICES</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/method'><p>Programs</p></Link>
+                        <Link to='/detox'><p>Programs</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -78,8 +55,18 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
+
+                    <div className="col">
+                        <h3>Location</h3>
+                        <p>1018 33rd St, Los Angeles CA 90011</p>
+                        <p> info@33rdstreetdetox.com</p>
+                        <p>  +1 (323) 443-9913</p>
+
+                    </div>
+
+
                 </div>
-                <p className='copyright'><p>&copy; 33rd Street Detox. All rights reserved.</p></p>
+                <p className='copyright'><p>&copy; 2023 33rd Street Detox. All rights reserved.</p></p>
 
 
             </div>
