@@ -58,11 +58,11 @@
   width: 300px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .navbar-logo img {
   width: 100%;
+  height: auto;
 }
 
 
@@ -124,7 +124,7 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 240px;
+    width: auto;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -200,10 +200,6 @@
 
       #submenu-item li {
         padding: .2rem 1rem;
-      }
-
-      .sub__menus {
-        width: 250px;
       }
 
 }
