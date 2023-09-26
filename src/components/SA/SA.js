@@ -7,7 +7,7 @@ const SA = () => {
         <div className='sa submenu'>
                 <div className="sa-content">
                     <Fade top>
-                    <h1>SUBSTANCE ABUSE PROGRAMS</h1>
+                    <h1>COMMON ABUSED DRUGS</h1>
                     </Fade>
             </div>
         </div>

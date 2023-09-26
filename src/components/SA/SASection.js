@@ -10,7 +10,7 @@ const MenusSA = () => {
     <>
 
       <div className="substance-abuse-header container">
-        <h1>33rd DETOX TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE
+        <h1>33RD DETOX TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE
           PROGRAMS
         </h1>
         <p>

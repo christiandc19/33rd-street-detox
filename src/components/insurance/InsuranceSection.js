@@ -3,16 +3,16 @@ import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 import InsuranceLogos from './InsuranceLogos'
 
-import Aetna from '../../assets/aetna.png'
-import Beacon from '../../assets/beacon.png'
-import Bluecross from '../../assets/bluecross.png'
-import Cigna from '../../assets/cigna.png'
-import Horizon from '../../assets/horizon.png'
-import UMR from '../../assets/umr.png'
-import United from '../../assets/united-healthcare.png'
-import Optima from '../../assets/optima.png'
-import Optum from '../../assets/optum.png'
-import Anthem from '../../assets/anthem.png'
+import Aetna from '../../assets/aetna.webp'
+import Beacon from '../../assets/beacon.webp'
+import Bluecross from '../../assets/bluecross.webp'
+import Cigna from '../../assets/cigna.webp'
+import Horizon from '../../assets/horizon.webp'
+import UMR from '../../assets/umr.webp'
+import United from '../../assets/united-healthcare.webp'
+import Optima from '../../assets/optima.webp'
+import Optum from '../../assets/optum.webp'
+import Anthem from '../../assets/anthem.webp'
 
 
 

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
 
-import FlexItem1 from '../../assets/flexItem1.jpg'
-import FlexItem2 from '../../assets/flexItem2.jpg'
-import FlexItem3 from '../../assets/flexItem3.jpg'
-import FlexItem4 from '../../assets/flexItem4.jpg'
+import FlexItem1 from '../../assets/flexItem1.webp'
+import FlexItem2 from '../../assets/flexItem2.webp'
+import FlexItem3 from '../../assets/flexItem3.webp'
+import FlexItem4 from '../../assets/flexItem4.webp'
 
 
 const Section2 = () => {

@@ -13,7 +13,7 @@
   .about:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-about.jpg') no-repeat center top/cover;
+    background: url('../../assets/menu-bg-about.webp') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

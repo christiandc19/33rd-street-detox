@@ -13,7 +13,7 @@
   .contact-hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/contact-form-bg.jpg') no-repeat center top/cover;
+    background: url('../../assets/contact-form-bg.webp') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

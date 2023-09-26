@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutSection.css'
 
-import About from '../../assets/about-section-1.jpg'
+import About from '../../assets/about-section1.webp'
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -19,7 +19,7 @@ const AboutSection = () => {
                     <p>Our mission at 33rd Street Detox is to provide a safe and nurturing space for individuals seeking to overcome substance dependency. We believe in the power of comprehensive detoxification programs that are tailored to the unique needs of each person we serve.</p>
 
                     <h1>Contact Us Today</h1>
-                    <p>If you or a loved one are ready to take the first step towards a brighter, substance-free future, we invite you to reach out to us. Our compassionate team is here to answer any questions and guide you through the admissions process.<br/><br/>Reclaim your life from substance abuse with the help of 20th Street Detox. Together, we can build a foundation for lasting recovery and a brighter tomorrow.</p>
+                    <p>If you or a loved one are ready to take the first step towards a brighter, substance-free future, we invite you to reach out to us. Our compassionate team is here to answer any questions and guide you through the admissions process.<br/><br/>Reclaim your life from substance abuse with the help of 33rd Street Detox Detox. Together, we can build a foundation for lasting recovery and a brighter tomorrow.</p>
 
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/contact">

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-2.png'
-// import {FiChevronDown } from "react-icons/fi";
-import { AiOutlineMobile } from 'react-icons/ai';
+import {AiOutlineCaretDown } from "react-icons/ai";
+
 import './NavbarStyles.css'
 
 const Navbar = () => {
@@ -38,69 +38,65 @@ const Navbar = () => {
     }
 
 
-    window.onscroll = () => {
-        const nav = document.querySelector('#nav');
-        if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
-      };
-
 
     return (
-        <div name='top' className='navbar' id='nav'>
-
-
-            <div className="navbarContainer">
-
-
-                        <div className="navbar-logo">
-                            <Link to='/'>
-                            <img src={logo} alt="Palm Springs Rehab Logo" loading="lazy"/>
-                            </Link>
-                        </div>
-
-
-            <div className='menu-container'>
-
-                        <div className="hamburger" onClick={handleNav}>
-                            {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
-                        </div>
-
+        <div name='top' className='navbar'>
+            <div className="navbar-container">
+                
+                 <div className="navbar-logo">
+                    <Link to='/'>
+                    <img src={logo} alt="33rd Street Detox Rehab Logo" loading="lazy"/>
+                    </Link>
+                </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to='/substance-abuse'> Addiction </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction Treatment<AiOutlineCaretDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/fentanyl`}> Fentanyl </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/heroin`}> Heroin</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/kratom`}> Kratom </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mdma`}> MDMA </NavLink> </li>
-                           <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/meth`}> Meth </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/oxycodone`}> Oxycodone </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescription </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/medication-assisted-treatment`}> Medication Assisted Treatment</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/individualize-treatment-alternatives`}> Individualize Treatment Alternatives</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/dual-diagnosis`}> Dual Diagnosis Treatment</NavLink> </li>
                         </ul>
                     </li>
-                    <li><Link to='/detox'>Detox Programs</Link> </li>
-                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/about-us`}> About Us</NavLink> </li>
+
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Detox Programs<AiOutlineCaretDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-heroin`}> Heroin Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-alcohol`}> Alcohol Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-cocaine`}> Cocaine Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-benzodiazepines`}> Benzodiazepines </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-methamphetamine`}> Methamphetamine </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-marijuana`}> Marijuana Detox </NavLink> </li>
+                        </ul>
+                    </li>
+
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Substance Abuse<AiOutlineCaretDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse`}> Commonly Abused Drugs</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescriptions Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/benzodiazepines`}> Benzodiazepines</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/stimulant`}> Stimulant Drugs </NavLink> </li>
+                        </ul>
+
+                    </li>
+
+
+                    {/* <li><Link to='/detox'>Detox</Link> </li> */}
+                    <li><Link to='/about-us'>About Us</Link> </li>
                     {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
 
-                
-                <div className='navbar-number hide'>
-                                    <p><AiOutlineMobile /></p>
-                                    <a href="tel:3234439913"> (323) 443-9913</a>
-                            </div>
-
-</div>
-
-
+                <div className="hamburger" onClick={handleNav}>
+                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
+                </div>
             </div>
         </div>
     )

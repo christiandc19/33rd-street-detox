@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.benzodiazepines {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  
+  .benzodiazepines:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/addiction-submenu-bg.webp') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.benzodiazepines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benzodiazepines .benzodiazepines-content {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.benzodiazepines h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.benzodiazepines h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.benzodiazepines h1 {
+    font-size: 2rem;
+}
+
+.benzodiazepines h3 {
+    font-size: 1rem;
+}
+}
